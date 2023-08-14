@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>App Web Identificador de Sons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Link ml5 -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+  <header class="col-xs-12 text-center" >
+    <h1>
+    Sons de animais
+    </h1>
+    <p>Esses animais ouvem os seguintes sons: <b> latidos | miados | rugidos </b></p>
+  </header>
+
+  <main>
+    <button class="btn btn-success" onclick="iniciar()">
+      Iniciar
+    </button>
+    <h2>
+      consigo ouvir: <span id="som">este som</span>
+    </h2>
+    <h3>
+      presisão: <span id="precisão">este resultado</span>
+    </h3>
+    <br>
+
+  <img src="som.png" id="img">
+    
+  </main>
+
+  <footer>
+    <h5>
+      Desenvolvido por: Felipe
+      <br>
+      Auxílio: Prof Paola
+    </h5>
+  </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
